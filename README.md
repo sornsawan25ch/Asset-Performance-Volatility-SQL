@@ -47,10 +47,13 @@ How has asset risk and performance since Covid19 Pandemic began?
 
 Asset Performance: Equity’s YTD dropped at the beginning of Covid19 pandemic but it still outperforms other asset classes at the end of 2020 also equity’s annual return is still positive in 2020.Gold beat equity’s annual return since Covid19 pandemic in 2020. It shows gold is a safe-haven asset for investors during hard situations. While real estate ’s YTD decrease lower than bonds since real estate’s annual return is large drop and turn to negative in 2020.
 
- 
+ ![YTD 2015_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/d64da150-dee1-43cb-b1cd-359f3b412f1e)
 
 
+ ![Asset_Return_2015_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/badde1b1-4aed-4cc1-b9cc-96956e9773cf)
 
+
+![Asset_Return_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/a2357079-67e6-434b-98c4-2a28a6b0578c)
 
 
 Asset Volatility: Equity and real estate tend to have higher volatility in 2019-2020. Especially real estate, which will have the highest volatility in 2020. While gold volatility is higher by little in 2020 compared to previous year.
