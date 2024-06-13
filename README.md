@@ -58,20 +58,22 @@ Asset Performance: Equity’s YTD dropped at the beginning of Covid19 pandemic b
 
 Asset Volatility: Equity and real estate tend to have higher volatility in 2019-2020. Especially real estate, which will have the highest volatility in 2020. While gold volatility is higher by little in 2020 compared to previous year.
 
+![Asset_Variance_2015_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/b4ef9d50-3ae7-4a94-a526-7970b1f3d6e9)
 
+
+![Asset_Variance_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/9158942c-7be3-40ce-b965-ff33bb07a000)
 
 
 
 Portfolio Return and Volatility: Portfolio cumulative return large drop in March 2020 as market panic about Covid19 spread brings large drop of equity which portfolio holds around 40 percent. However, 2 months later the portfolio rebounded to the same level and increased higher. Portfolio variance increased since March 2020 and moved higher than highest variance of 2015 in November 2020. It shows portfolios tend to volatile more in next year and need to reduce portfolio risk.
 
+![Covid 2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/6e75dca3-7383-49f9-9f4c-c3b4f46d392a)
 
 
+![Cumulative Portfolio Return 2015_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/05b5ccb2-8a7d-49d4-9328-b1d07c86aae7)
 
 
-
-
-
-
+![Port_Variance_2015_2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/76903d05-4260-4936-8d20-8bab081f17ff)
 
 
 
@@ -81,7 +83,7 @@ How to allocate assets in a portfolio to mitigate risk in the end year of 2020?
 
 Asset Allocation: Underweight high volatility asset during Covid19 pandemic. From the volatility data, real estate and equity volatility increase and overall portfolio volatility strong increase and more than highest volatility of 2015 since November 2020, so equity and real estate should underweight during Covid new cases growing to mitigate risk of portfolio. 
 
-
+![Asset Allocation](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/caaa4e79-266f-4f45-9ba3-464c6e08e5ce)
 
 
 What asset will be an investment opportunity to allocate based on your data?(Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
@@ -89,7 +91,10 @@ What asset will be an investment opportunity to allocate based on your data?(Ass
 
 Market View: Covid pandemic was relieved in the first quarter of 2022 after the number of covid new cases went to the peak in January 2022. Economic recovery from shutdown and high inflation make the Federal Reserve Bank start to increase interest rates from March,3th 2022 and hike rates again by large and fast from 0.33% to 1.88% in June 2022.
 
+![Covid 2020_1H2022](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/1b5907a0-af98-46d3-92fb-ad14dbc82a7a)
 
+
+![FED_CPI](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/0ea2ba8e-8777-4eb9-a16f-c23d9895d606)
 
 
 
@@ -98,9 +103,25 @@ Asset Allocation:
 Changing of interest rate large and fast pressure on many assets. For equity, companies will run businesses with higher financing costs. Bond market will get price pressure when the interest rate is higher. Higher opportunity cost of gold investors as holding gold cannot get interest or dividend. Lower home purchasing power will put pressure on demand in the real estate market. Based on the business cycle, we are on the stage of full expansion in the first half of 2022. Under high inflation and hawkish interest rate policy, although business will get higher financing costs, at the same time the growth of demand and productivity will be a positive factor for business growth at this stage. So equity should be overweight on the portfolio and we underweight on bonds as interest rate has a high effect on bond price directly. Neutral for gold as gold is a good asset for long-term hedge against inflation, but underweight for real estate as growth of the real estate sector was pressured by lower house demand  because of the higher home financing cost.
 
 
+
 ### Step5: Share
 
 
 Create a dashboard in Tableau to present asset allocation by considering performance and volatility risk of asset class and portfolio. Moreover,using economic indicators and Covid19 new cases to make investment decisions in order to mitigate risk and optimize return.
 
+
+### Appendix
+
+### Business Cycle
+
+![Economic Cycle](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/a2fa3c11-14b1-4592-a4db-2f64750bab46)
+
+Source : StockCharts.com
+
+Stage1 : The economy weakens and the central bank loose monetary policy by cutting interest rates.
+Stage2 : The economy moves to the bottom.
+Stage3 : The economy improves and tries to move into an expansion phase.
+Stage4 : In the full expansion period. The expansion increased inflation pressure and the Central bank started to increase the interest rate.
+Stage5 : In a peak of economic growth.The economy grows at a slower pace because of rising interest rates.
+Stage6 : Economic cycle prepares to move from an expansion phase to a contraction phase.
 
