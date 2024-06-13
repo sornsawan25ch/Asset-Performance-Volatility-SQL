@@ -81,9 +81,9 @@ How to allocate assets in a portfolio to mitigate risk in the end year of 2020?
 
 
 
-Asset Allocation: Underweight high volatility asset during Covid19 pandemic. From the volatility data, real estate and equity volatility increase and overall portfolio volatility strong increase and more than highest volatility of 2015 since November 2020, so equity and real estate should underweight during Covid new cases growing to mitigate risk of portfolio. 
+Asset Allocation: Underweight high volatility asset during Covid19 pandemic. From the volatility data, real estate and equity volatility increase and overall portfolio volatility  increase and more than highest volatility of 2015 since November 2020, so equity and real estate should be underweighted to mitigate portfolio risk during Covid new cases growing and tend to increase more in the future. 
 
-![Asset Allocation](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/caaa4e79-266f-4f45-9ba3-464c6e08e5ce)
+![Asset Allocation2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/4ee621b7-7054-4e9b-a145-ccfa14b45b32)
 
 
 What asset will be an investment opportunity to allocate based on your data?(Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
