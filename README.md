@@ -120,9 +120,14 @@ Create a dashboard in Tableau to present asset allocation by considering perform
 Source : StockCharts.com
 
 Stage1 : The economy weakens and the central bank loose monetary policy by cutting interest rates.
+
 Stage2 : The economy moves to the bottom.
+
 Stage3 : The economy improves and tries to move into an expansion phase.
+
 Stage4 : In the full expansion period. The expansion increased inflation pressure and the Central bank started to increase the interest rate.
+
 Stage5 : In a peak of economic growth.The economy grows at a slower pace because of rising interest rates.
+
 Stage6 : Economic cycle prepares to move from an expansion phase to a contraction phase.
 
