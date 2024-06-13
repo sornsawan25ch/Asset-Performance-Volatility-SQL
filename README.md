@@ -24,7 +24,7 @@ All asset got impact from high uncertainty during Covid19 Pandemic and how quant
 
 How has asset risk and performance since Covid19 Pandemic began?
 How to allocate assets in a portfolio to mitigate risk ? (Assume portfolio manager ask to doing data analytic in the end year of 2020)
-What asset will be interesting and will be an investment opportunity to allocate based on your data during the circumstance situation ? (Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
+What asset will be an investment opportunity to allocate based on your data ? (Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
 
 ### Step2: Prepare
 
@@ -81,7 +81,7 @@ Asset Allocation: Underweight high volatility asset during Covid19 pandemic. Fro
 
 
 
-What asset will be interesting and will be an investment opportunity to allocate based on your data during circumstance of  situation ?(Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
+What asset will be an investment opportunity to allocate based on your data?(Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
 
 
 Market View: Covid pandemic was relieved in the first quarter of 2022 after the number of covid new cases went to the peak in January 2022. Economic recovery from shutdown and high inflation make the Federal Reserve Bank start to increase interest rates from March,3th 2022 and hike rates again by large and fast from 0.33% to 1.88% in June 2022.
