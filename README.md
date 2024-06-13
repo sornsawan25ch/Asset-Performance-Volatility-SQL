@@ -29,7 +29,9 @@ What asset will be an investment opportunity to allocate based on your data ? (A
 
 ### Step2: Prepare
 
-This project analyzes asset performance and asset allocation, Relevant data is asset price, economic indicators, and covid new cases. 
+This project analyzes asset performance, volatility, and also economic factors to allocate assets in a portfolio. The relevant data is asset price, economic indicators, and covid new cases. 
+
+![DataSource](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/ac7d567e-bdf4-440a-89ac-41f6c4570135)
 
 ### Step3: Process
 
