@@ -1,14 +1,14 @@
 
 
-# Data Analytic Project : Asset Performance & Volatility in high uncertainty of covid19 and monetary policy.
+# Data Analytic Project : Asset Performance and Volatility in High Uncertainty of Covid19 and Monetary policy (2020 -2022).
 
 ## Introduction
 
-Asset performance and volatility is a data project in which I apply a data analytic process from Google Data Analytic Course. This project will enhance me in finding insight from data to answer business questions in the financial industry.
+This data project in which I apply a data analytic process from Google Data Analytic Course. This project will enhance me in finding insight from data to answer business questions related to portfolio management.
 
 ## Scenario
 
-Asset Management Company have many funds which combine many classes of assets. By the end year of 2020, where the Covid19 pandemic is still an intense situation. Global economic slowdown and asset prices around the world are volatile. Portfolio managers discuss with the team about Covid19 impact on the market and do data analysis to assess asset performance and asset risk during Covid19 to mitigate portfolio risk and find investment opportunities to optimize portfolio return when covid pandemic seem relief.
+Asset Management Company have a variety of funds which combine many classes of assets. By the end year of 2020, where the Covid19 pandemic is still an intense situation. Global economic slowdown and asset prices around the world are volatile. Portfolio managers discuss with the team about Covid19 impact on the market and do data analysis to assess asset performance and asset risk during Covid19 pandemic to mitigate portfolio risk and find investment opportunities to optimize portfolio return when covid pandemic seem relief.
 
 ## Purposes
 
