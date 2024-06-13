@@ -12,8 +12,8 @@ Asset Management Company have many funds which combine many classes of assets. B
 
 ## Purposes
 
-Analyze asset performance and asset volatility to allocate assets to mitigate risk.
-Analyze economic indicators and covid19 pandemic situations to find investment opportunities and allocate assets to optimize portfolio return.
+-Analyze asset performance and asset volatility to allocate assets to mitigate risk.
+-Analyze economic indicators and covid19 pandemic situations to find investment opportunities and allocate assets to optimize portfolio return.
 
 ## Data Analytic Process
 
