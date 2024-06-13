@@ -1,10 +1,10 @@
 
 
-# Data Analytic Project : Asset Performance & Volatility
+# Data Analytic Project : Asset Performance & Volatility in high uncertainty of covid19 and monetary policy.
 
 ## Introduction
 
-Asset performance and asset allocation is a data project in which I apply a data analytic process from Google Data Analytic Course. This project will enhance me in finding insight from data to answer business questions in the financial industry.
+Asset performance and volatility is a data project in which I apply a data analytic process from Google Data Analytic Course. This project will enhance me in finding insight from data to answer business questions in the financial industry.
 
 ## Scenario
 
@@ -22,7 +22,7 @@ Asset Management Company have many funds which combine many classes of assets. B
 
 All asset got impact from high uncertainty during Covid19 Pandemic and how portfolio manager will use data to answer following questions:
 
-How has asset risk and performance since Covid19 Pandemic began?
+How has asset risk and performance been since Covid19 Pandemic began?
 How to allocate assets in a portfolio to mitigate risk ? (Assume portfolio manager doing data analytic in the end year of 2020 and at the beginning portfolio combines with equity 40%, bond 40%, gold 10%, and real estate 10%.)
 What asset will be an investment opportunity to allocate based on your data ? (Assume that portfolio manager doing data analytic again at the first half of 2022)
 
@@ -43,7 +43,7 @@ To make data integrity, It’s important to clean and manipulate data before app
 
 ### Step4: Analyze
 
-## How has asset risk and performance since Covid19 Pandemic began?
+### How has asset risk and performance been since Covid19 Pandemic began?
 
 Asset Performance: Equity’s YTD dropped at the beginning of Covid19 pandemic but it still outperforms other asset classes at the end of 2020 also equity’s annual return is still positive in 2020.Gold beat equity’s annual return since Covid19 pandemic in 2020. It shows gold is a safe-haven asset for investors during hard situations. While real estate ’s YTD decrease lower than bonds since real estate’s annual return is large drop and turn to negative in 2020.
 
@@ -77,7 +77,8 @@ Portfolio Return and Volatility: Portfolio cumulative return large drop in March
 
 
 
-## How to allocate assets in a portfolio to mitigate risk in the end year of 2020?
+### How to allocate assets in a portfolio to mitigate risk ? (Assume portfolio manager doing data analytic in the end year of 2020 and at the beginning portfolio combines with equity 40%, bond 40%, gold 10%, and real estate 10%.)
+
 
 
 
@@ -86,7 +87,7 @@ Asset Allocation: Underweight high volatility asset during Covid19 pandemic. Fro
 ![Asset Allocation2020](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/4ee621b7-7054-4e9b-a145-ccfa14b45b32)
 
 
-## What asset will be an investment opportunity to allocate based on your data?(Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
+### What asset will be an investment opportunity to allocate based on your data ? (Assume that portfolio manager doing data analytic again at the first half of 2022)
 
 
 Market View: Covid pandemic was relieved in the first quarter of 2022 after the number of covid new cases went to the peak in January 2022. Economic recovery from shutdown and high inflation make the Federal Reserve Bank start to increase interest rates from March,3th 2022 and hike rates again by large and fast from 0.33% to 1.88% in June 2022.
