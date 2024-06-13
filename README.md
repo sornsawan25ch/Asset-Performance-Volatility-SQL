@@ -8,7 +8,7 @@ Asset performance and asset allocation is a data project in which I apply a data
 
 ## Scenario
 
-Asset Management Company have many funds which combine many classes of assets. By the end year of 2020, where the Covid19 pandemic is still an intense situation. Global economic slowdown and asset prices around the world are volatile. Senior portfolio managers discuss with quantitative analysts about Covid19 impact on the market and ask quantitative analysts to assess asset performance and asset risk during Covid19 to mitigate portfolio risk and find investment opportunities to optimize portfolio return. Quantitative analysts will share their insight to senior portfolio managers in making decisions. Assume that the current portfolio combines with equity 40%, bond 40%, gold 10%, and real estate 10%.
+Asset Management Company have many funds which combine many classes of assets. By the end year of 2020, where the Covid19 pandemic is still an intense situation. Global economic slowdown and asset prices around the world are volatile. Portfolio managers discuss with the team about Covid19 impact on the market and do data analysis to assess asset performance and asset risk during Covid19 to mitigate portfolio risk and find investment opportunities to optimize portfolio return when covid pandemic seem relief.
 
 ## Purposes
 
@@ -20,11 +20,12 @@ Asset Management Company have many funds which combine many classes of assets. B
 
 ### Step1: Ask
 
-All asset got impact from high uncertainty during Covid19 Pandemic and how quantitative analysts will use data to answer following questions:
+All asset got impact from high uncertainty during Covid19 Pandemic and how portfolio manager will use data to answer following questions:
 
 How has asset risk and performance since Covid19 Pandemic began?
-How to allocate assets in a portfolio to mitigate risk ? (Assume portfolio manager ask to doing data analytic in the end year of 2020)
-What asset will be an investment opportunity to allocate based on your data ? (Assume that portfolio manager ask to doing data analytic again at the first half of 2022)
+How to allocate assets in a portfolio to mitigate risk ? (Assume portfolio manager doing data analytic in the end year of 2020 and at the beginning portfolio combines with equity 40%, bond 40%, gold 10%, and real estate 10%.)
+What asset will be an investment opportunity to allocate based on your data ? (Assume that portfolio manager doing data analytic again at the first half of 2022)
+
 
 ### Step2: Prepare
 
