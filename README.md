@@ -111,6 +111,7 @@ Figure8: The Number of Covid19 in 2020- 1H2022.
 
 ![Covid 2020_1H2022](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/1b5907a0-af98-46d3-92fb-ad14dbc82a7a)
 
+Figure9: The Federal Interest Rate Policy and Consumer Price Index in 2015- 1H2022.
 
 ![FED_CPI](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/0ea2ba8e-8777-4eb9-a16f-c23d9895d606)
 
