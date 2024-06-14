@@ -38,9 +38,13 @@ This project analyzes asset performance, volatility, and also economic factors t
 To make data integrity, It’s important to clean and manipulate data before applying it as the correction of data will lead to the reliability result. So I apply the following process in cleaning and manipulating the data in the Structured Query Language Program from Google.
 
 1.Check data format in each dataset 
+
 2.Check data type in each column
+
 3.Check data size
+
 4.Check the completion in all rows and manage NULL rows.
+
 5.Combine relevant data into one table.       
 
 ### Step4: Analyze
