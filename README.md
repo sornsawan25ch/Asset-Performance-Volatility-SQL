@@ -1,6 +1,6 @@
 
 
-# Data Analytic Project : Asset Allocation in High Uncertainty of Covid19 and Monetary policy (2020 -2022).
+# Data Analytic Project : Asset Allocation in High Uncertainty of Covid19 and Monetary Policy (2020 -2022).
 
 ## Introduction
 
