@@ -138,6 +138,8 @@ Changing of interest rate large and fast pressure on many assets. For equity, co
 
 Create a dashboard in Tableau to present asset allocation by considering performance and volatility risk of asset class and portfolio. Moreover,using economic indicators and Covid19 new cases to make investment decisions in order to mitigate risk and optimize return.
 
+![Dashboard](https://github.com/sornsawan25ch/Asset-Performance-Volatility-SQL/assets/166679003/e9985b78-e3a8-4f29-8325-6fffd1d08277)
+
 
 ### Appendix
 
