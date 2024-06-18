@@ -1,0 +1,56 @@
+#Data Cleaning Process (Dataset1: asset price)
+
+
+##Check the completion of all row 
+
+###(1)
+
+SELECT Date,
+       Close
+
+FROM project-2-407013.AssetClass.Bond
+
+WHERE Close IS NULL;
+
+###(2)
+
+SELECT Date,
+       Close
+
+FROM project-2-407013.AssetClass.Equity
+
+WHERE Close IS NULL;
+
+###(3)
+
+SELECT Date,
+       Close
+
+FROM project-2-407013.AssetClass.Gold
+
+WHERE Close IS NULL;
+
+###(4)
+
+SELECT Date,
+       Close
+
+FROM project-2-407013.AssetClass.RealEstate
+
+WHERE Close IS NULL;
+
+#Combine all asset price into one sheet
+
+SELECT b.Date,
+       b.Close AS Bond_Price,
+       e.Close AS Equity_Price,
+       g.Close AS Gold_Price,
+       re.Close AS RealEstate_Price
+FROM AssetClass.Bond b
+INNER JOIN AssetClass.Equity e
+ON b.Date = e.Date
+INNER JOIN AssetClass.Gold g
+ON e.Date = g.Date
+INNER JOIN AssetClass.RealEstate re
+ON g.Date = re.Date
+ORDER BY Date DESC;

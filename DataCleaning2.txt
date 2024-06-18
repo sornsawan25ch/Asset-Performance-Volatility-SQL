@@ -1,0 +1,11 @@
+#Data Cleaning Process (Dataset2: Covid19 new cases)
+
+##Check Null
+
+SELECT date,
+       country_name,
+       new_confirmed 
+
+FROM bigquery-public-data.covid19_open_data.covid19_open_data
+
+WHERE new_confirmed IS NULL;

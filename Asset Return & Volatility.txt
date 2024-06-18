@@ -1,0 +1,83 @@
+#Data Project : Asset Performance & Volatility
+
+#Asset Performance: Measure asset return (clear Null)
+
+SELECT *
+FROM (
+  SELECT Date,
+       (Bond_Price / LAG(Bond_Price) OVER (ORDER BY DATE))-1 AS Bond_ret,
+       (Equity_Price / LAG(Equity_Price) OVER (ORDER BY DATE))-1 AS Equity_ret,
+       (Gold_Price / LAG(Gold_Price) OVER (ORDER BY DATE))-1 AS Gold_ret,
+       (RealEstate_Price / LAG(RealEstate_Price) OVER (ORDER BY DATE))-1 AS RealEstate_ret,
+  FROM project-2-407013.AssetClass.All_AssetPrice
+  ORDER BY Date)
+WHERE Bond_ret is not null 
+      AND Equity_ret is not null
+      AND Gold_ret is not null
+      AND RealEstate_ret is not null;
+
+
+       
+#Asset Volatility: Measure asset risk (clear Null)
+
+
+SELECT *
+FROM (
+  SELECT Date,
+       VARIANCE(Bond_ret) OVER (ORDER BY DATE) AS Bond_risk,
+       VARIANCE(Equity_ret) OVER (ORDER BY DATE) AS Equity_risk,
+       VARIANCE(Gold_ret) OVER (ORDER BY DATE) AS Gold_risk,
+       VARIANCE(RealEstate_ret) OVER (ORDER BY DATE) AS RealEstate_risk
+  FROM project-2-407013.AssetClass.Asset_Return
+  ORDER BY Date)
+WHERE Bond_risk is not null
+      AND Equity_risk is not null
+      AND Gold_risk is not null
+      AND RealEstate_risk is not null;
+
+##Combine Return & Risk dataset
+
+
+SELECT r.Date,
+       Bond_ret *100 AS Bond_ret,
+       Equity_ret *100 AS Equity_ret,
+       Gold_ret *100 AS Gold_ret,
+       RealEstate_ret *100 AS RealEstate_ret,
+       Bond_risk*100 AS Bond_risk,
+       Equity_risk*100 AS Equity_risk,
+       Gold_risk*100 AS Gold_risk,
+       RealEstate_risk*100 AS RealEstate_risk
+FROM AssetClass.Asset_Return r
+INNER JOIN AssetClass.Asset_Risk v
+ON r.Date = v.Date;
+
+
+##Portfolio Performance: Measure portfolio return in 2015-2020 (Assume: Hold equity 40%, bond 40%, gold 10%, and real estate 10%)
+
+
+SELECT Date,
+       (Bond_ret *0.4)+(Equity_ret *0.4)+(Gold_ret *0.1)+(RealEstate_ret *0.1) AS Port_ret,
+        FROM `project-2-407013.AssetClass.All_ReturnRisk`
+        WHERE Date BETWEEN '2015-01-01' AND '2020-12-31'
+        ORDER BY Date;
+
+
+##Portfolio Volatility: Measure portfolio risk in 2015-2020 
+
+
+SELECT Date,
+       variance(Port_ret) OVER(ORDER BY DATE) AS Port_var
+
+FROM (SELECT Date,
+       (Bond_ret *0.4)+(Equity_ret *0.4)+(Gold_ret *0.1)+(RealEstate_ret *0.1) AS Port_ret,
+        FROM `project-2-407013.AssetClass.All_ReturnRisk`
+        WHERE Date BETWEEN '2015-01-01' AND '2020-12-31'
+        ORDER BY Date);
+
+#Combine Port Return & Port Risk data 
+
+SELECT prt.Date, Port_ret, Port_var
+FROM `project-2-407013.AssetClass.PortReturn` prt
+INNER JOIN `project-2-407013.AssetClass.PortRisk`  prk
+ON prt.Date = prk.Date
+WHERE Port_var is not null;
