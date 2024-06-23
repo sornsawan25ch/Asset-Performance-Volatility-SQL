@@ -14,7 +14,7 @@ Asset Management Company have a variety of funds which combine many classes of a
 
 -Analyze asset performance and asset volatility to allocate assets to mitigate risk.
 
--Analyze economic indicators and covid19 pandemic situations to find investment opportunities and allocate assets to optimize portfolio return.
+-Analyze economic indicators and Covid19 pandemic situations to find investment opportunities and allocate assets to maximize portfolio return.
 
 ## Data Analytic Process
 
