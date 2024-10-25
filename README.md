@@ -125,7 +125,8 @@ Changing of interest rates large and fast pressure on many assets. For equity, c
 
 - By the end of 2020, reducing the portion of high-volatility assets is the way to mitigate portfolio risk. So recommend underweight equity and real estate.
 
-- In the first half of 2022, High inflation is concerning. After the Covid19 relief, the Federal Reserve Bank started to hike rates. This occurs in the full expansion stage of the business cycle. Equity will be a good opportunity as the demand and 
+- In the first half of 2022, High inflation is concerning. After the Covid19 relief, the Federal Reserve Bank started to hike rates. This occurs in the full expansion stage of the business cycle. Equity will be a good opportunity as the demand and productivity is growing. So overweight for equity, but underweight for bond and real estate as higher interest rates large and fast will put pressure on both. Gold is a good asset to hedge inflation, it is neutral as we hold it with large amounts.
+
 
 
 
